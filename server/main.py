@@ -1,7 +1,5 @@
 from fastapi import FastAPI
-import os
 from fastapi.responses import JSONResponse
-from dotenv import load_dotenv
 from utils.constants import DIR,FILE_NAME
 from utils.random_file_generator import random_file_generator
 from utils.calculate_checksum import calculate_checksum
