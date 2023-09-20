@@ -18,3 +18,4 @@ async def generate_random_file_with_checksum():
     return JSONResponse(content=response_data)
 
     
+#uvicorn main:app --host 0.0.0.0 --port 8000 --workers 1

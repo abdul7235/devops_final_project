@@ -9,7 +9,7 @@ def verify_checksum(server_checksum):
         # Read the file in chunks to handle large files
         while chunk := file.read(8192):
             md5_hash.update(chunk)
-        print(server_checksum)
-        print(md5_hash.hexdigest())
+        print(f"server checksum: {server_checksum}")
+        print(f"client checksum: {md5_hash.hexdigest()}")
     return server_checksum == md5_hash.hexdigest()
 
