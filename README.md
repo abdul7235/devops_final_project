@@ -10,16 +10,16 @@ docker-compose.yml builds images for both frontend and backend by using custom D
 
 **Output from Frontend**
 
-![Alt text](assets/fronted.png)
+![Alt text](assets/fronted.jpg)
 
 **Backend Logs**
 
-![Alt text](assets/backend.png)
+![Alt text](assets/backend.jpg)
 
 **Client Volume**
 
-![Alt text](assets/client-volume.png)
+![Alt text](assets/client-volume.jpg)
 
 **Server Volume**
 
-![Alt text](assets/server-volume.png)
+![Alt text](assets/server-volume.jpg)
