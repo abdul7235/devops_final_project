@@ -19,7 +19,9 @@ while (i<20):
         data = response.json()
         file_content = data.get("file")
         # Save the file
-        with open(FILE_NAME, "w") as file:
+        home_dir = os.path.expanduser("~")
+        dir_path = os.path.join(home_dir, "/clientdata")
+        with open(f"{dir_path}/{FILE_NAME}", "w") as file:
             file.write(file_content)
 
         print(f"File '{FILE_NAME}' received successfully.")

@@ -6,9 +6,17 @@ services:
       context: ./server
     ports:
       - "8000:8000"
+    volumes:
+      - servervol:/serverdata
 
   frontend:
     build:
       context: ./client
     depends_on:
       - backend
+    volumes:
+      - clientvol:/clientdata
+
+volumes:
+  servervol:
+  clientvol:
