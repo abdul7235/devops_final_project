@@ -10,7 +10,7 @@ docker-compose.yml builds images for both frontend and backend by using custom D
 
 **Output from Frontend**
 
-![Alt text](assets/fronted.jpg)
+![Alt text](assets/frontend.jpg)
 
 **Backend Logs**
 
