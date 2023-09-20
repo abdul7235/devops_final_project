@@ -22,4 +22,4 @@ docker-compose.yml builds images for both frontend and backend by using custom D
 
 **Server Volume**
 
-![Alt text](assets/server-volume.jpg)
+![Alt text](assets/server-volume1.jpg)
